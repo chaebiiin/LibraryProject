@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.TextArea?>
+
+<AnchorPane prefHeight="530.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView id="imageView" fitHeight="225.0" fitWidth="256.0" layoutX="73.0" layoutY="24.0" nodeOrientation="INHERIT" pickOnBounds="true" smooth="false" />
+      <Label id="listTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="116.0" layoutY="278.0" prefHeight="40.0" prefWidth="174.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+     
+      <ScrollPane layoutX="39.0" layoutY="327.0" prefHeight="131.0" prefWidth="324.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="131.0" prefWidth="324.0">
+          
+               <children>
+                  <TextArea  id="listContent1" prefHeight="121.0" prefWidth="324.0" />
+                  
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Separator layoutX="73.0" layoutY="264.0" prefHeight="6.0" prefWidth="256.0" />
+      <HBox alignment="CENTER" layoutY="469.0" prefHeight="60.0" prefWidth="400.0" spacing="40.0">
+         <children>
+            <Button id="btnOk" mnemonicParsing="false" text="OK" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
